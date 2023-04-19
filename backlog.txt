@@ -1,0 +1,7 @@
+1)design and development of login page
+2)design and development of logout page
+3)design and develop the search feature that allows user to search hotels by date and locations
+4)Develop the feature that allows users to view details about the available rooms, including images, amenities, and pricing
+5)Develop the feature that allows users to book their desired room, including selecting the number of guests and dates of stay
+6)Implement a payment gateway to process the booking payments securely
+7)Prepare the website for launch by optimizing its performance and making any necessary adjustments.
