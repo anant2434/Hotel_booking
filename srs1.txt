@@ -1,0 +1,171 @@
+Roll no 25,40,19,08,22
+Document:System Requirement Specification Document
+Title: System Requirement Specification for Online hotel booking portal
+
+Team:
+Direct Customer, Indirect Customer,Architect, Business Analyst
+Quality Assurance Team,
+System Analyst
+
+Objective (Purpose):
+The online hotel booking portal for end users is intended to provide complete
+solution
+for end users,hotel management (Staff) through a single gateway using
+internet.It will help hotel management to set up online reservations,customers to browse
+rooms virtually.
+Scope:
+This system allows customers to browse through available rooms and hotels and can
+compare rooms based on different criteria .Customers will be able to cancel booking within 24
+hours.
+The system will be able to notify both the hotel management as well as the customers
+about the booking.
+Definitions:
+QA: Quality Assurance
+Portal: Personalized Online Web Application
+MIS: Management Information System
+CRM: Customer Relation Management
+BI: Business Intelligence
+Dashboard: Personalized information presented using BI techniques such grid, score
+card, graph
+
+Requirements:
+Functional Requirements:
+
+From customer point of view:
+
+1. Any anonymous user will be able to view all the rooms available in different categories
+according to their requirement.
+2. If user wants to book a room he needs to create an account. If he has already existing
+account he need to log in.
+3. User will be able to make the payment via different gateways.
+4. After successful payment user will be notified regarding successful booking via sms and mail.
+5. User will be able to see his bookings in booking history. User can see unique booking id for
+his booking status.
+6. User will be able to cancel his booking 24 hours prior to his check in.
+7. Registered user will be get notification regarding different offers available according to his
+booking history.
+8. Hotel listing will be filtered according to user selected category, price range, rating, popularity,
+location.
+9. User can give ratings, write reviews according to their experience in hotel.
+10. User can see hotel room descriptions, photo gallery, amenities available, type of room,
+rating and reviews given by other users.
+11. Customer will be able to update his/ her personal information. Customer will be able to
+manage his profile maintained by system. Customer will be able to change his credentials if
+required.
+12. Customer will get complete information about his bookings, details through a dashboard.
+13. Customer will be able to update his payment related information.
+
+From hotel staff point of view:
+1. Registered hotels will be able to promote their listings for booking by adding it to the catalog
+maintained by the system.
+2. Hotel staff will be able to approve or reject any bookings.
+3. Registered hotels will be able to update or delete any detail about their listing.
+4. Staff will be informed in advanced about availability of rooms.
+5. Staff will be able to track their booking sale being done through online booking portal.
+From System point of view:
+1. System staff will be able to approve or reject any listings from the catalog.
+2. System will be able to request for any updation from the registered hotels.
+3. Sales team will approve or reject the request of registered hotels to update or delete any
+detail about their listing.
+4. System will be to track and maintain listing of room available for booking. System will be able
+to raise requests for listing updation from registered hotels.
+5. System will be informed in advanced about availability of rooms in rooms catalog.
+6. Sales team will be able get details of booking of a particular Customer. Sales team will be
+able to cancel , reject or approve booking that has been placed by customer due to some
+policies of Business.
+
+7. BOD will be able to see summary of bookings been placed , rejected from booking
+processing of System. BOD will get Business insight by observing daily operations with getting
+booking information.
+8. Sales team will be able to monitor bookings done by their customers.
+9. System will present dashboard for Customers, registered hotels as well as BOD.
+10. Dashboard will provide information using graph, score cards, key performance indicators as
+well Grid data prestation. BOD will be informed about business operations through reports.
+11. Sales team will be able to monitor daily online booking business activities using their
+personalized dashboard.
+12. System and Technical team ( IT Operations team) will be able monitor system operations by
+monitoring logs maintained.
+NonFunctional Requirement:
+
+Security:
+Every customer has to register themselves using their email id and phone number.
+For authentication otp will be send to their registered contact number.
+Only Registered Customer will be allowed to book a room.
+Each Hotel Management will be to access system through authentication process.
+System will provide access to the content , operations using Role based security
+(Authorization) (Permissions based on Role).
+Proper firewall will be used to protect servers from out side fishing, vulnerable attacks.
+The system must ensure that all the transferable data as for examples customers credit or debit
+card number, CVV Code, e-payment should be done in secured connection.
+
+Reliability:
+The system will backup business data and recover in short time duration to keep system
+operational continuous updates are maintained
+Availability:
+The website will be available and running for 24*7, except for maintenance work.
+Accessibility:
+The system should support almost all the browsers (Internet Explorer, Safari, Chrome, and
+Firefox).
+Maintainability:
+
+A Commercial database software will be used to maintain System data Persistence.
+A readymade Web Server will be installed to host online hotel booking web site to management
+server capabilities.
+IT operations team will easily monitor and configure System using Administrative tools provided
+by Servers.
+Separate environment will be maintained for system for isolation in production, testing, and
+development.
+Portability:
+PDA: Portable Device Application
+System will provide portable User Interface ( HTML, CSS, JS) through users will be able to
+access online hotel booking website.
+System can be deployed to any type of server.
+Not dependent on particular os.
+
+Efficiency:
+On summer season, maximum number of users will search for hotels and in diffrent cities so it
+should be able handle to the traffic and site should perform all operations smoothly.
+The system must be able to handle multiple transactions a time.
+
+Scalability:
+The site should be designed to handle large amounts of traffic, especially during peak summer
+seasons or big events in that city.
+
+List of Business entities:
+Payments: Paymentid, Payment date, amount, status, payment type, payment receipt
+Hotel: hotelid, hotel name, location, type, country
+Rooms: Roomid, roomprice, room type, room status, amenities, description
+Customer: customerId, customername, address, location, phone
+Booking: Bookingid, days, totaldays, dates, name
+Category: Family, Group, Couple, Friends
+Siteusers: Hotelstaff, customer, Systemstaff
+Feedback: rating, review
+Business Operations to be automated by Online Hotel Booking Website
+Get customer details
+validate user
+Login
+Logout
+change password
+forgot password
+Notify
+Update customer personal information
+register hotel
+Show Offers
+Show available rooms for given date
+Filters for rooms search
+Show rooms detail
+Compare rooms and prices
+Booking of room
+Payment options
+Payment
+Payment Confirmation
+Booking confirmation
+Booking Status
+Feedback
+Complaints
+Customer Support
+Booking cancellation
+Amount Refund
+Update rooms available
+
+
