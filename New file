@@ -1,0 +1,5 @@
+Git is a distributed version control system. So, What is a Version Control System? 
+
+A version Control system is a system that maintains different versions of your project when we work in a team or as an individual. (system managing changes to files) As 
+the project progresses, new features get added to it. So, a version control system maintains all the different versions of your project for you and you can roll back
+to any version you want without causing any trouble to you for maintaining different versions by giving names to it like MyProject, MyProjectWithFeature1, etc. 
